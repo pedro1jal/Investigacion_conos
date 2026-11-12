@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "name": "BBC_News",
+    "hf_id": "SetFit/bbc-news",
+    "n_classes": 5,
+    "text_column": "text",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "train",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "csv": "train.csv",
+  "rows": 1225,
+  "embedding_dimensions": 384,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": null,
+  "label_counts": {
+    "2": 275,
+    "1": 286,
+    "3": 210,
+    "0": 212,
+    "4": 242
+  },
+  "saved_original_columns": [
+    "text",
+    "label_text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": null,
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:12:15.811737+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": {
+    "name": "AG_News",
+    "hf_id": "fancyzhx/ag_news",
+    "n_classes": 4,
+    "text_column": "text",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "test",
+  "model": "BAAI/bge-small-en-v1.5",
+  "csv": "test.csv",
+  "rows": 5000,
+  "embedding_dimensions": 384,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ],
+  "label_counts": {
+    "2": 1204,
+    "3": 1240,
+    "1": 1270,
+    "0": 1286
+  },
+  "saved_original_columns": [
+    "text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": null,
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:35:00.696858+00:00"
+}

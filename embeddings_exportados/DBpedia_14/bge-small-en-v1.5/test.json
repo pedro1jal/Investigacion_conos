@@ -1,0 +1,44 @@
+{
+  "dataset": {
+    "name": "DBpedia_14",
+    "hf_id": "fancyzhx/dbpedia_14",
+    "n_classes": 14,
+    "text_column": "content",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "test",
+  "model": "BAAI/bge-small-en-v1.5",
+  "csv": "test.csv",
+  "rows": 5000,
+  "embedding_dimensions": 384,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": [
+    "Company",
+    "EducationalInstitution",
+    "Artist",
+    "Athlete",
+    "OfficeHolder",
+    "MeanOfTransportation",
+    "Building",
+    "NaturalPlace",
+    "Village",
+    "Animal",
+    "Plant",
+    "Album",
+    "Film",
+    "WrittenWork"
+  ],
+  "label_counts": {
+    "0": 5000
+  },
+  "saved_original_columns": [
+    "content",
+    "title"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": null,
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:43:37.151985+00:00"
+}

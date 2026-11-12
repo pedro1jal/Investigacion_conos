@@ -1,0 +1,44 @@
+{
+  "dataset": {
+    "name": "DBpedia_14",
+    "hf_id": "fancyzhx/dbpedia_14",
+    "n_classes": 14,
+    "text_column": "content",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "train",
+  "model": "word2vec-google-news-300",
+  "csv": "train.csv",
+  "rows": 5000,
+  "embedding_dimensions": 300,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": [
+    "Company",
+    "EducationalInstitution",
+    "Artist",
+    "Athlete",
+    "OfficeHolder",
+    "MeanOfTransportation",
+    "Building",
+    "NaturalPlace",
+    "Village",
+    "Animal",
+    "Plant",
+    "Album",
+    "Film",
+    "WrittenWork"
+  ],
+  "label_counts": {
+    "0": 5000
+  },
+  "saved_original_columns": [
+    "content",
+    "title"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": "unweighted mean of in-vocabulary word vectors; zero if no words in vocabulary",
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T14:59:40.019900+00:00"
+}

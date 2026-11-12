@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "name": "BBC_News",
+    "hf_id": "SetFit/bbc-news",
+    "n_classes": 5,
+    "text_column": "text",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "test",
+  "model": "BAAI/bge-small-en-v1.5",
+  "csv": "test.csv",
+  "rows": 1000,
+  "embedding_dimensions": 384,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": null,
+  "label_counts": {
+    "3": 176,
+    "2": 236,
+    "1": 224,
+    "4": 175,
+    "0": 189
+  },
+  "saved_original_columns": [
+    "text",
+    "label_text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": null,
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:52:21.120461+00:00"
+}

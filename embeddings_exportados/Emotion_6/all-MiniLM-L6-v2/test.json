@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "name": "Emotion_6",
+    "hf_id": "dair-ai/emotion",
+    "n_classes": 6,
+    "text_column": "text",
+    "label_column": "label",
+    "config": "split"
+  },
+  "split": "test",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "csv": "test.csv",
+  "rows": 2000,
+  "embedding_dimensions": 384,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "label_counts": {
+    "0": 581,
+    "1": 695,
+    "4": 224,
+    "3": 275,
+    "2": 159,
+    "5": 66
+  },
+  "saved_original_columns": [
+    "text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": null,
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:23:50.351704+00:00"
+}

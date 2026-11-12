@@ -1,0 +1,48 @@
+{
+  "dataset": {
+    "name": "20_Newsgroups",
+    "hf_id": "SetFit/20_newsgroups",
+    "n_classes": 20,
+    "text_column": "text",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "train",
+  "model": "word2vec-google-news-300",
+  "csv": "train.csv",
+  "rows": 5000,
+  "embedding_dimensions": 300,
+  "normalized_l2": true,
+  "zero_vectors": 146,
+  "label_names": null,
+  "label_counts": {
+    "7": 261,
+    "4": 257,
+    "1": 252,
+    "14": 248,
+    "16": 230,
+    "13": 271,
+    "3": 257,
+    "2": 262,
+    "8": 277,
+    "19": 155,
+    "6": 266,
+    "0": 220,
+    "12": 274,
+    "5": 269,
+    "10": 261,
+    "9": 261,
+    "15": 263,
+    "17": 239,
+    "18": 207,
+    "11": 270
+  },
+  "saved_original_columns": [
+    "text",
+    "label_text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": "unweighted mean of in-vocabulary word vectors; zero if no words in vocabulary",
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:00:39.991085+00:00"
+}

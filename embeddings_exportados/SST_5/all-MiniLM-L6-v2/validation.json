@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "name": "SST_5",
+    "hf_id": "SetFit/sst5",
+    "n_classes": 5,
+    "text_column": "text",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "validation",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "csv": "validation.csv",
+  "rows": 1101,
+  "embedding_dimensions": 384,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": null,
+  "label_counts": {
+    "2": 229,
+    "1": 289,
+    "0": 139,
+    "3": 279,
+    "4": 165
+  },
+  "saved_original_columns": [
+    "text",
+    "label_text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": null,
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:25:06.816536+00:00"
+}

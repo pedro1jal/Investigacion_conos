@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "name": "Emotion_6",
+    "hf_id": "dair-ai/emotion",
+    "n_classes": 6,
+    "text_column": "text",
+    "label_column": "label",
+    "config": "split"
+  },
+  "split": "train",
+  "model": "word2vec-google-news-300",
+  "csv": "train.csv",
+  "rows": 5000,
+  "embedding_dimensions": 300,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "label_counts": {
+    "0": 1443,
+    "3": 671,
+    "2": 401,
+    "5": 198,
+    "4": 584,
+    "1": 1703
+  },
+  "saved_original_columns": [
+    "text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": "unweighted mean of in-vocabulary word vectors; zero if no words in vocabulary",
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:01:08.487730+00:00"
+}

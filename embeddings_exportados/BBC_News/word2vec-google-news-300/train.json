@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "name": "BBC_News",
+    "hf_id": "SetFit/bbc-news",
+    "n_classes": 5,
+    "text_column": "text",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "train",
+  "model": "word2vec-google-news-300",
+  "csv": "train.csv",
+  "rows": 1225,
+  "embedding_dimensions": 300,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": null,
+  "label_counts": {
+    "2": 275,
+    "1": 286,
+    "3": 210,
+    "0": 212,
+    "4": 242
+  },
+  "saved_original_columns": [
+    "text",
+    "label_text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": "unweighted mean of in-vocabulary word vectors; zero if no words in vocabulary",
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T15:00:06.046012+00:00"
+}
