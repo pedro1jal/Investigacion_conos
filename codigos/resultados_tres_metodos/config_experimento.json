@@ -1,0 +1,109 @@
+{
+  "seed": 2026,
+  "k_values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "n_way_target": 5,
+  "episodes": 3,
+  "query_sets_per_class": 10,
+  "m_query_docs": 5,
+  "embedding_names": [
+    "word2vec-google-news-300",
+    "sentence-transformers/all-MiniLM-L6-v2",
+    "BAAI/bge-small-en-v1.5"
+  ],
+  "n_angles": 3,
+  "representation": "shimomoto_token_tf_msm_per_query_doc_mean_scores__sogi_excess_document_cones",
+  "tf_msm_max_class_terms": 512,
+  "tf_msm_max_query_terms": 48,
+  "subspace_rank": 8,
+  "cone_rank": 4,
+  "max_words_doc": 48,
+  "transformer_max_pieces": 96,
+  "excess_direction": "directed",
+  "excess_source": "raw_docs",
+  "excess_r": "2",
+  "excess_max_iter": 60,
+  "excess_starts": 1,
+  "datasets": [
+    {
+      "name": "AG_News",
+      "repo": "fancyzhx/ag_news",
+      "n_classes": 4,
+      "text_column": "text",
+      "label_column": "label",
+      "config": null,
+      "train_split": "train",
+      "test_split": "test"
+    },
+    {
+      "name": "DBpedia_14",
+      "repo": "fancyzhx/dbpedia_14",
+      "n_classes": 14,
+      "text_column": "content",
+      "label_column": "label",
+      "config": null,
+      "train_split": "train",
+      "test_split": "test"
+    },
+    {
+      "name": "BBC_News",
+      "repo": "SetFit/bbc-news",
+      "n_classes": 5,
+      "text_column": "text",
+      "label_column": "label",
+      "config": null,
+      "train_split": "train",
+      "test_split": "test"
+    },
+    {
+      "name": "20_Newsgroups",
+      "repo": "SetFit/20_newsgroups",
+      "n_classes": 20,
+      "text_column": "text",
+      "label_column": "label",
+      "config": null,
+      "train_split": "train",
+      "test_split": "test"
+    },
+    {
+      "name": "Emotion_6",
+      "repo": "dair-ai/emotion",
+      "n_classes": 6,
+      "text_column": "text",
+      "label_column": "label",
+      "config": "split",
+      "train_split": "train",
+      "test_split": "test"
+    },
+    {
+      "name": "SST_5",
+      "repo": "SetFit/sst5",
+      "n_classes": 5,
+      "text_column": "text",
+      "label_column": "label",
+      "config": null,
+      "train_split": "train",
+      "test_split": "test"
+    }
+  ]
+}
