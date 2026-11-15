@@ -1,0 +1,338 @@
+[
+  {
+    "dataset": "AG_News",
+    "model": "word2vec-google-news-300",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 300,
+    "csv": "AG_News\\word2vec-google-news-300\\train.csv"
+  },
+  {
+    "dataset": "AG_News",
+    "model": "word2vec-google-news-300",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 300,
+    "csv": "AG_News\\word2vec-google-news-300\\test.csv"
+  },
+  {
+    "dataset": "DBpedia_14",
+    "model": "word2vec-google-news-300",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 300,
+    "csv": "DBpedia_14\\word2vec-google-news-300\\train.csv"
+  },
+  {
+    "dataset": "DBpedia_14",
+    "model": "word2vec-google-news-300",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 300,
+    "csv": "DBpedia_14\\word2vec-google-news-300\\test.csv"
+  },
+  {
+    "dataset": "BBC_News",
+    "model": "word2vec-google-news-300",
+    "split": "train",
+    "rows": 1225,
+    "dimensions": 300,
+    "csv": "BBC_News\\word2vec-google-news-300\\train.csv"
+  },
+  {
+    "dataset": "BBC_News",
+    "model": "word2vec-google-news-300",
+    "split": "test",
+    "rows": 1000,
+    "dimensions": 300,
+    "csv": "BBC_News\\word2vec-google-news-300\\test.csv"
+  },
+  {
+    "dataset": "20_Newsgroups",
+    "model": "word2vec-google-news-300",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 300,
+    "csv": "20_Newsgroups\\word2vec-google-news-300\\train.csv"
+  },
+  {
+    "dataset": "20_Newsgroups",
+    "model": "word2vec-google-news-300",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 300,
+    "csv": "20_Newsgroups\\word2vec-google-news-300\\test.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "word2vec-google-news-300",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 300,
+    "csv": "Emotion_6\\word2vec-google-news-300\\train.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "word2vec-google-news-300",
+    "split": "validation",
+    "rows": 2000,
+    "dimensions": 300,
+    "csv": "Emotion_6\\word2vec-google-news-300\\validation.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "word2vec-google-news-300",
+    "split": "test",
+    "rows": 2000,
+    "dimensions": 300,
+    "csv": "Emotion_6\\word2vec-google-news-300\\test.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "word2vec-google-news-300",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 300,
+    "csv": "SST_5\\word2vec-google-news-300\\train.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "word2vec-google-news-300",
+    "split": "validation",
+    "rows": 1101,
+    "dimensions": 300,
+    "csv": "SST_5\\word2vec-google-news-300\\validation.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "word2vec-google-news-300",
+    "split": "test",
+    "rows": 2210,
+    "dimensions": 300,
+    "csv": "SST_5\\word2vec-google-news-300\\test.csv"
+  },
+  {
+    "dataset": "AG_News",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "AG_News\\all-MiniLM-L6-v2\\train.csv"
+  },
+  {
+    "dataset": "AG_News",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "AG_News\\all-MiniLM-L6-v2\\test.csv"
+  },
+  {
+    "dataset": "DBpedia_14",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "DBpedia_14\\all-MiniLM-L6-v2\\train.csv"
+  },
+  {
+    "dataset": "DBpedia_14",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "DBpedia_14\\all-MiniLM-L6-v2\\test.csv"
+  },
+  {
+    "dataset": "BBC_News",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "train",
+    "rows": 1225,
+    "dimensions": 384,
+    "csv": "BBC_News\\all-MiniLM-L6-v2\\train.csv"
+  },
+  {
+    "dataset": "BBC_News",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "test",
+    "rows": 1000,
+    "dimensions": 384,
+    "csv": "BBC_News\\all-MiniLM-L6-v2\\test.csv"
+  },
+  {
+    "dataset": "20_Newsgroups",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "20_Newsgroups\\all-MiniLM-L6-v2\\train.csv"
+  },
+  {
+    "dataset": "20_Newsgroups",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "20_Newsgroups\\all-MiniLM-L6-v2\\test.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "Emotion_6\\all-MiniLM-L6-v2\\train.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "validation",
+    "rows": 2000,
+    "dimensions": 384,
+    "csv": "Emotion_6\\all-MiniLM-L6-v2\\validation.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "test",
+    "rows": 2000,
+    "dimensions": 384,
+    "csv": "Emotion_6\\all-MiniLM-L6-v2\\test.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "SST_5\\all-MiniLM-L6-v2\\train.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "validation",
+    "rows": 1101,
+    "dimensions": 384,
+    "csv": "SST_5\\all-MiniLM-L6-v2\\validation.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "split": "test",
+    "rows": 2210,
+    "dimensions": 384,
+    "csv": "SST_5\\all-MiniLM-L6-v2\\test.csv"
+  },
+  {
+    "dataset": "AG_News",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "AG_News\\bge-small-en-v1.5\\train.csv"
+  },
+  {
+    "dataset": "AG_News",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "AG_News\\bge-small-en-v1.5\\test.csv"
+  },
+  {
+    "dataset": "DBpedia_14",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "DBpedia_14\\bge-small-en-v1.5\\train.csv"
+  },
+  {
+    "dataset": "DBpedia_14",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "DBpedia_14\\bge-small-en-v1.5\\test.csv"
+  },
+  {
+    "dataset": "BBC_News",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "train",
+    "rows": 1225,
+    "dimensions": 384,
+    "csv": "BBC_News\\bge-small-en-v1.5\\train.csv"
+  },
+  {
+    "dataset": "BBC_News",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "test",
+    "rows": 1000,
+    "dimensions": 384,
+    "csv": "BBC_News\\bge-small-en-v1.5\\test.csv"
+  },
+  {
+    "dataset": "20_Newsgroups",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "20_Newsgroups\\bge-small-en-v1.5\\train.csv"
+  },
+  {
+    "dataset": "20_Newsgroups",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "test",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "20_Newsgroups\\bge-small-en-v1.5\\test.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "Emotion_6\\bge-small-en-v1.5\\train.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "validation",
+    "rows": 2000,
+    "dimensions": 384,
+    "csv": "Emotion_6\\bge-small-en-v1.5\\validation.csv"
+  },
+  {
+    "dataset": "Emotion_6",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "test",
+    "rows": 2000,
+    "dimensions": 384,
+    "csv": "Emotion_6\\bge-small-en-v1.5\\test.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "train",
+    "rows": 5000,
+    "dimensions": 384,
+    "csv": "SST_5\\bge-small-en-v1.5\\train.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "validation",
+    "rows": 1101,
+    "dimensions": 384,
+    "csv": "SST_5\\bge-small-en-v1.5\\validation.csv"
+  },
+  {
+    "dataset": "SST_5",
+    "model": "BAAI/bge-small-en-v1.5",
+    "split": "test",
+    "rows": 2210,
+    "dimensions": 384,
+    "csv": "SST_5\\bge-small-en-v1.5\\test.csv"
+  }
+]

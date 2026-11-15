@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "name": "SST_5",
+    "hf_id": "SetFit/sst5",
+    "n_classes": 5,
+    "text_column": "text",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "train",
+  "model": "BAAI/bge-small-en-v1.5",
+  "csv": "train.csv",
+  "rows": 5000,
+  "embedding_dimensions": 384,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": null,
+  "label_counts": {
+    "4": 719,
+    "1": 1296,
+    "2": 957,
+    "3": 1386,
+    "0": 642
+  },
+  "saved_original_columns": [
+    "text",
+    "label_text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": null,
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T18:02:27.398090+00:00"
+}

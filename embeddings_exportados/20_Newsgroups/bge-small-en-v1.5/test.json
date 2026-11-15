@@ -1,0 +1,48 @@
+{
+  "dataset": {
+    "name": "20_Newsgroups",
+    "hf_id": "SetFit/20_newsgroups",
+    "n_classes": 20,
+    "text_column": "text",
+    "label_column": "label",
+    "config": null
+  },
+  "split": "test",
+  "model": "BAAI/bge-small-en-v1.5",
+  "csv": "test.csv",
+  "rows": 5000,
+  "embedding_dimensions": 384,
+  "normalized_l2": true,
+  "zero_vectors": 0,
+  "label_names": null,
+  "label_counts": {
+    "7": 257,
+    "5": 261,
+    "0": 220,
+    "17": 241,
+    "19": 166,
+    "13": 272,
+    "15": 269,
+    "1": 264,
+    "2": 257,
+    "8": 258,
+    "4": 272,
+    "6": 243,
+    "16": 240,
+    "14": 267,
+    "3": 269,
+    "11": 264,
+    "9": 255,
+    "10": 265,
+    "18": 203,
+    "12": 257
+  },
+  "saved_original_columns": [
+    "text",
+    "label_text"
+  ],
+  "text_truncation": "SentenceTransformer default tokenizer limits; original text retained separately when enabled",
+  "word2vec_aggregation": null,
+  "max_rows_per_split": 5000,
+  "generated_utc": "2026-11-12T17:55:32.808071+00:00"
+}
